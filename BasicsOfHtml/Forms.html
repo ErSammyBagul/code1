@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <main>
+    <H3>Forms</H3>
+  </main>
+  <br>
+<form  action="/action.php">
+    <h4>Set Username and Password</h4>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" class="Creds" placeholder="Enter Name" maxlength="50" </input>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" class="Creds" placeholder="Password" min=10 max="50"</input>
+
+  <hr>
+    <h4> Education</h4>
+    <label for="checkbox1">SSC</label>
+    <input type="checkbox" id="checkbox1" class="Education" />
+    <label for="checkbox2">HSC</label>
+    <input type="checkbox" id="checkbox2" class="Education" />
+    <label for="checkbox3">Diploma</label>
+    <input type="checkbox" id="checkbox3" class="Education" />
+  </div>
+  <hr>
+  
+  <h5>Do you Have Bank Account</h5>
+  <label>
+    <input type="radio" class="bank" name="bank_option"> Yes
+  </label>
+  <label>
+    <input type="radio" class="bank" name="bank_option"> No
+  </label>
+
+ <hr>
+  <label> Language </label>
+   <select id ="Select Language" name="Languages" >
+   
+      <option value="English">English</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Marathi">Marathi</option>
+   </select>
+</div>
+<hr>
+
+  <h5>All Info correct?</h5>
+  <label>
+    <input type="radio" class="Info" name="info_option"> Yes
+  </label>
+  <label>
+    <input type="radio" class="Info" name="info_option"> No
+  </label>
+</div>
+<hr>
+  <label>TextArea
+    <textarea placeholder="Enter Feedback here"></textarea>
+  </label>
+  <hr>
+<Label>Date
+  <input type="date"></input></Label>
+  <hr>
+  <label>
+  <button type="submit">SUBMIT
+  </button></label>
+</form>
+</body>
+
+</html>
